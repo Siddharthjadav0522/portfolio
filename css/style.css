@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.header-fix{
+background: #4537c7;
+opacity:.9;
+z-index: 1;
+}
+.home-btn:hover{
+    background-color: #000;
+    color: white;
+}
+.name{
+    font-size:60px;
+}
+.line::after {
+    content:"";
+    position: absolute;
+    width:60%;
+    height:3px;
+    background-color: #ffffff;
+    align-items: center;
+    top: 50%;
+    left:30%;
+}
+section{
+    padding:70px 0 0px 0; 
+}
+.name-line::after{
+    content:"";
+    position:absolute;
+    width:60px;
+    height:4px;
+    background-color: #8400f8;
+    top: 130%;
+    left:47%;
+}
+.home-jadav{
+    background-image: url(../img/hero-bg.jpeg);
+    background-repeat: no-repeat;
+    height:800px;
+    align-items: center;
+    display: flex;
+    background: linear-gradient(45deg, #563afae6 0%, #740fd6e6 100%), url(../img/hero-bg.jpeg);
+}
+.service-itm{
+    transform: all .4s ease;
+    cursor: pointer;
+    background-color: #faf8ff;
+}
+.service-itm:hover{
+box-shadow: 0px 12px 28px #4d57de80 ;
+background-color: #fff;
+}
+.pro-1{
+cursor: pointer;
+}
+
+.pro-1:hover .plush{
+    background-color:#4d57de80;
+}
+.plush i{
+    opacity: 0;
+    font-size:90px;
+    left:25%;
+    top:25%;
+    transform: translate(-50%,-50%);
+    transition: all .4s ease;
+}
+.pro-1:hover .plush i{
+opacity: 1;
+top:50%;
+left:50%;
+}
+.team-img{
+cursor: pointer;
+}
+.team-icon{
+top:70%;
+opacity: 0;
+left:18%;
+transition: all .4s ease;
+}
+.team-img:hover .team-icon{
+top: 80%;
+opacity: 1;
+}
+ .walter{
+height:38px;
+width: 38px;
+border-radius: 50%;
+background-color: #8400f8;
+}
+.gallery-img{
+overflow: hidden;
+cursor: pointer;
+}
+.room{
+transition: all .4s ease;
+}
+.room:hover{
+transform: scale(1.2);
+}
+.meet{
+    width:50px;
+    height:50px;
+    background-color: #ddf4ff;
+}
+.meet i{
+    color: #0d20f0;
+}
+.omg:hover .meet{
+    background-color: #35b9f6;
+}
+.omg:hover i{
+    color: white;
+}
+.join{
+    background-image: url(../img/counts-bg.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.footer-bg{
+    height: auto;
+    background-size:cover;
+    background-position: center;
+}
+.victus{
+    height:40px;
+    width:40px;
+    background-color: #ffffff1a;
+}
+.victus:hover{
+    background-color: #bca4bcae;
+}
+.vikash{
+    font-size:15px;
+}

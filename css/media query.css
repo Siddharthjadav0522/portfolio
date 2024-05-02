@@ -39,8 +39,8 @@
         height:300px;
     }
     .line::after{
-        width:40%;
-        left:45%;
+        width:26%;
+        left:50%;
     }
     .name-line::after{
         left:38%;

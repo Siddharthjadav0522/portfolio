@@ -6,7 +6,7 @@
 .header-fix {
   background: #4537c7;
   opacity: 0.9;
-  z-index: 1;
+  z-index: 99;
 }
 .home-btn:hover {
   background-color: #000;
